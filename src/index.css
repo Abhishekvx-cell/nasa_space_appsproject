@@ -1,0 +1,8 @@
+@import "tailwindcss";
+body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#16294d55,transparent),#080e1c;color:#dbe4f3;font-family:"Segoe UI",system-ui,sans-serif}
+.glass{background:#0f1a31cc;border:1px solid #22324f;border-radius:14px;backdrop-filter:blur(8px)}
+.leaflet-container{background:#0b1426;border-radius:12px}
+select,input{background:#0b1426;border:1px solid #2a3b5c;border-radius:8px;padding:6px 10px;color:#dbe4f3}
+button{cursor:pointer}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.6)}
